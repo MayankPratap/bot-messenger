@@ -15,6 +15,8 @@ def gotsomepic():
     bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
+    image_url = "http://bit.ly/2oIo2EZ"
+    bot.send_image_url(recipient_id, image_url)
   else:
     bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
