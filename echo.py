@@ -15,27 +15,63 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    #image_url = "http://bit.ly/2oIo2EZ"
+    image_url = "http://bit.ly/2oIo2EZ"
     #bot.send_image_url(recipient_id, image_url)
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
     #bot.send_generic_message(recipient_id, elements)
-    payload = {'recipient': {'id': recipient_id}, 'message': {'text': "Code,Sleep,Repeat"}} # We're going to send this back
+    #payload = {'recipient': {'id': recipient_id}, 'message': {'text': "Code,Sleep,Repeat"}} # We're going to send this back
+    element= {
+        "title": "Someone at your door",
+        "image_url": image_url,
+        "subtitle": ""
+    }
+    
+    elements=[element]
+
+    message = {
+        "attachment": {
+            "type": "template",
+            "payload": {
+                "template_type": "generic",
+                "elements": elements
+            }
+        }
+    }
+    payload={'recipient':{'id':recipient_id},'message':message}
     r = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + access_token, json=payload) # Lets send it
   else:
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    #image_url = "http://bit.ly/2oIo2EZ"
+    image_url = "http://bit.ly/2oIo2EZ"
     #bot.send_image_url(recipient_id, image_url)
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
     #bot.send_generic_message(recipient_id, elements)
-    payload = {'recipient': {'id': recipient_id}, 'message': {'text': "Code,Sleep,Repeat"}} # We're going to send this back
-    r = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + access_token, json=payload) # Lets send it
+    #payload = {'recipient': {'id': recipient_id}, 'message': {'text': "Code,Sleep,Repeat"}} # We're going to send this back
+    #r = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + access_token, json=payload) # Lets send it
+    element= {
+        "title": "Someone at your door",
+        "image_url": image_url,
+        "subtitle": ""
+    }
     
+    elements=[element]
+
+    message = {
+        "attachment": {
+            "type": "template",
+            "payload": {
+                "template_type": "generic",
+                "elements": elements
+            }
+        }
+    }
+    payload={'recipient':{'id':recipient_id},'message':message}
+    r = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + access_token, json=payload) # Lets send it
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
