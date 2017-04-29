@@ -15,7 +15,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "http://www.ece.rice.edu/~wakin/images/lenaTest2.jpg"
+    image_url = "https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.manrepeller.com%2Fwp-content%2Fuploads%2F2017%2F03%2FLena-Dunham-Microblading-Vogue-Man-Repeller.jpg&imgrefurl=http%3A%2F%2Fwww.manrepeller.com%2F2017%2F03%2Flena-dunham-documents-her-own-microblading.html&docid=aDZ1of1I5sAHHM&tbnid=rCsWtrZzevx3EM%3A&vet=10ahUKEwiFjLDx5snTAhWKo48KHS7xAiMQMwg4KAgwCA..i&w=1200&h=800&client=ubuntu&bih=673&biw=1309&q=lena%20images&ved=0ahUKEwiFjLDx5snTAhWKo48KHS7xAiMQMwg4KAgwCA&iact=mrc&uact=8"
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
@@ -44,7 +44,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "http://www.ece.rice.edu/~wakin/images/lenaTest2.jpg"
+    image_url = "https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.manrepeller.com%2Fwp-content%2Fuploads%2F2017%2F03%2FLena-Dunham-Microblading-Vogue-Man-Repeller.jpg&imgrefurl=http%3A%2F%2Fwww.manrepeller.com%2F2017%2F03%2Flena-dunham-documents-her-own-microblading.html&docid=aDZ1of1I5sAHHM&tbnid=rCsWtrZzevx3EM%3A&vet=10ahUKEwiFjLDx5snTAhWKo48KHS7xAiMQMwg4KAgwCA..i&w=1200&h=800&client=ubuntu&bih=673&biw=1309&q=lena%20images&ved=0ahUKEwiFjLDx5snTAhWKo48KHS7xAiMQMwg4KAgwCA&iact=mrc&uact=8"
     #bot.send_image_url(recipient_id, image_url)
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
