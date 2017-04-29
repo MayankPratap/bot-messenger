@@ -9,10 +9,17 @@ app = Flask(__name__)
 access_token = "EAAF96u7EUXIBAL9sskjA1ZC3UyNwEjby116a3wBIFJLdoTvA02S3xrTj3sTAvZAuKWd8isVRknXswxSjGGFkrvCI4YdLngybZCgB0K7BnIZCFhJAxdqluFSruEPQQhVdZCaB1AoxDtNKyOxacUQfvPIL92zziOZAWCyq2ouxtYbQZDZD"
 recipient_id="1442034082522401"
 
-bot=Bot(access_token)
-message="Aur bot kaise ho?"
-
-bot.send_text_message(recipient_id,message)
+@app.route('/gotsomepic',methods=['GET','POST'])
+def gotsomepic():
+  if request.method=='POST':
+    bot=Bot(access_token)
+    message="Aur bot kaise ho?" 
+    bot.send_text_message(recipient_id,message)
+  else:
+    bot=Bot(access_token)
+    message="Aur bot kaise ho?" 
+    bot.send_text_message(recipient_id,message)
+   
 
 @app.route('/webhook', methods=['GET', 'POST'])
 def webhook():
