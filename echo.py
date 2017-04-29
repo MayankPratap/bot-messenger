@@ -15,7 +15,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "http://media1.santabanta.com/full1/Global%20Celebrities%28F%29/Sunny%20Leone/sunny-leone-127a.jpg"
+    image_url = "http://www.baltana.com/files/wallpapers-3/Disha-Patani-In-MS-Dhoni-The-Untold-Story-2016-Wallpaper-09802.jpg"
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
@@ -44,7 +44,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "http://media1.santabanta.com/full1/Global%20Celebrities%28F%29/Sunny%20Leone/sunny-leone-127a.jpg"
+    image_url = "http://www.baltana.com/files/wallpapers-3/Disha-Patani-In-MS-Dhoni-The-Untold-Story-2016-Wallpaper-09802.jpg"
     #bot.send_image_url(recipient_id, image_url)
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
