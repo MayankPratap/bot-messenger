@@ -15,7 +15,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "https://www.dropbox.com/s/rqgtezs5bpm1tjy/elonmusk.jpg"
+    image_url = request.data
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
