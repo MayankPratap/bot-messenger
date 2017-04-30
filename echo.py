@@ -15,7 +15,7 @@ def gotsomepic():
     bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
    
-    image_url = request.data['image_url']
+    image_url = json.loads(request.data)['image_url']
     print(image_url)
     bot.send_text_message(recipient_id,image_url)
     
