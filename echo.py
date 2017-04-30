@@ -15,7 +15,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "https://www.dropbox.com/s/rqgtezs5bpm1tjy/elonmusk.jpg?dl=0"
+    image_url = "https://www.dropbox.com/s/rqgtezs5bpm1tjy/elonmusk.jpg"
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
@@ -44,7 +44,7 @@ def gotsomepic():
     #bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
     #bot.send_text_message(recipient_id,message)
-    image_url = "https://www.dropbox.com/s/rqgtezs5bpm1tjy/elonmusk.jpg?dl=0"
+    image_url = "https://www.dropbox.com/s/rqgtezs5bpm1tjy/elonmusk.jpg"
     #bot.send_image_url(recipient_id, image_url)
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
