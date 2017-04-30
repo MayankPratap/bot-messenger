@@ -12,14 +12,14 @@ recipient_id="1442034082522401"
 @app.route('/gotsomepic',methods=['GET','POST'])
 def gotsomepic():
   if request.method=='POST':
-    #bot=Bot(access_token)
+    bot=Bot(access_token)
     #message="Aur bot kaise ho?" 
-    #bot.send_text_message(recipient_id,message)
+   
     image_url = request.data['image_url']
     print(image_url)
+    bot.send_text_message(recipient_id,image_url)
     
-    payload = {'recipient': {'id': sender}, 'message': {'text': sender}} # We're going to send this back
-    r = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + access_token, json=payload) 
+   
     #elements = []
     #element = Element(title="tutorialPointRGB", image_url="https://www.tutorialspoint.com/dip/images/rgb.jpg", subtitle="")
     #elements.append(element)
