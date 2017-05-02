@@ -113,6 +113,8 @@ def userReply():
 		elif text=="Yes":
 			text=""
 			return "Yes"
+		else:
+			return ""
 
 
 
