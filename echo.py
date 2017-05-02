@@ -14,6 +14,7 @@ text=""
 @app.route('/gotsomepic',methods=['GET','POST'])
 def gotsomepic():
 	if request.method=='POST':
+		global text
 		text=""
 		data=request.data.decode('utf-8')
 		data=json.loads(data)
@@ -104,6 +105,7 @@ def webhook():
 @app.route('/userReply',methods=['GET'])
 
 def userReply():
+	global text
 	if request.method=='GET':
 		if text=="No":
 			text=""
