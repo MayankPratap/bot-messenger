@@ -14,6 +14,7 @@ text=""
 @app.route('/gotsomepic',methods=['GET','POST'])
 def gotsomepic():
 	if request.method=='POST':
+		text=""
 		data=request.data.decode('utf-8')
 		data=json.loads(data)
 		image_url=data['image_url']
@@ -104,7 +105,12 @@ def webhook():
 
 def userReply():
 	if request.method=='GET':
-		return text
+		if text=="No":
+			text=""
+			return "No"
+		elif text=="Yes":
+			text=""
+			return "Yes"
 
 
 
