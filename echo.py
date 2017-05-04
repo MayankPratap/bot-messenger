@@ -6,8 +6,8 @@ import traceback
 import random
 app = Flask(__name__)
 # Raula machega
-access_token="EAAF96u7EUXIBAL9sskjA1ZC3UyNwEjby116a3wBIFJLdoTvA02S3xrTj3sTAvZAuKWd8isVRknXswxSjGGFkrvCI4YdLngybZCgB0K7BnIZCFhJAxdqluFSruEPQQhVdZCaB1AoxDtNKyOxacUQfvPIL92zziOZAWCyq2ouxtYbQZDZD"
-recipient_id="1442034082522401"
+access_token="*******"
+recipient_id="*******"
 
 text=""
 
