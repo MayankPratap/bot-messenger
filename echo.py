@@ -107,15 +107,7 @@ def webhook():
 def userReply():
 	global text
 	if request.method=='GET':
-		if text=="No":
-			text=""
-			return "No"
-		elif text=="Yes":
-			text=""
-			return "Yes"
-		else:
-			return ""
-
+		return text
 
 
 if __name__ == '__main__':
